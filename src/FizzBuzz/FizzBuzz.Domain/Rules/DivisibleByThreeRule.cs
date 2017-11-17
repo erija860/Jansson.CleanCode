@@ -4,7 +4,12 @@
     {
         public string GetResult(int number)
         {
-            return IsDivisibleByThree(number) ? "Fizz" : null;
+            return "Fizz";
+        }
+
+        public bool IsApplicable(int number)
+        {
+            return IsDivisibleByThree(number);
         }
     }
 }

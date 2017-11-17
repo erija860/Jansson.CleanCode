@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Rules\DivisibleByFiveRule.cs" />
+    <Compile Include="Rules\DivisibleByThreeAndFiveRule.cs" />
+    <Compile Include="Rules\DivisibleByThreeRule.cs" />
     <Compile Include="FizzBuzzLogic.cs" />
+    <Compile Include="Rules\IFizzBuzzRule.cs" />
+    <Compile Include="Rules\FizzBuzzRuleBase.cs" />
+    <Compile Include="FizzBuzzRuleRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\ReturnNumberRule.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

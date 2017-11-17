@@ -14,7 +14,7 @@ namespace FizzBuzz.Domain
 
         public string GetResultFromNumber(int number)
         {
-            return _rules.First(r => r.GetResult(number) != null).GetResult(number);
+            return _rules.First(r => r.IsApplicable(number)).GetResult(number);
         }
     }
 }

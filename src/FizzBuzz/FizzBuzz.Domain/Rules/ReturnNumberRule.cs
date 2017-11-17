@@ -6,5 +6,10 @@
         {
             return number.ToString();
         }
+
+        public bool IsApplicable(int number)
+        {
+            return true;
+        }
     }
 }

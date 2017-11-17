@@ -4,7 +4,12 @@
     {
         public string GetResult(int number)
         {
-            return IsDivisibleByFive(number) ? "Buzz" : null;
+            return "Buzz";
+        }
+
+        public bool IsApplicable(int number)
+        {
+            return IsDivisibleByFive(number);
         }
     }
 }
